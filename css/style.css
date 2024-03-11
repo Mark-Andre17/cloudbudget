@@ -159,6 +159,9 @@ a{
     position: relative;
     justify-content: space-between;
 }
+.features-box-img{
+    max-width: 100%;
+}
 .wrapper{
     width: 293px;
     height: 198px;
@@ -320,4 +323,208 @@ a{
     font-size: 12px;
     font-weight: 400;
     color: #101010;
+}
+@media screen and (max-width:1024px){
+    .container{
+        max-width: 750px;
+    }
+    .features-boxes{
+        gap: 10px;
+    }
+    .wrapper{
+        width: 200px;
+        height: 150px;
+        padding: 10px;
+        gap: 10px;
+        justify-content: space-between;
+        top: 115px;
+    }
+    .one{
+        left: 20px;
+    }
+    .two{
+        left: 275px;
+    }
+    .three{
+        left: 527px;
+    }
+    .gallery-box{
+        gap: 30px;
+    }
+    .top-menu-href{
+        font-size: 10px;
+    }
+    .gallery-picture:first-child,.gallery-picture:last-child{
+        display: none;
+    }
+}
+@media screen and (max-width:768px){
+    .container{
+        max-width: 550px;
+        margin: 0 auto;
+    }
+    .top-menu{
+        display: none;
+    }
+    .header-title{
+        font-size: 50px;
+    }
+    .header-text{
+        font-size: 18px;
+    }
+    .video{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .video-info{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .video-text{
+        text-align: center;
+    }
+    .video-title{
+        font-size: 28px;
+    }
+    .video-text-about{
+        font-size: 14px;
+    }
+    .features{
+        padding-top: 40px;
+        padding-bottom: 100px;
+    }
+    .cloud-title{
+        font-size: 28px;
+        margin-bottom: 40px;
+    }
+    .features-boxes{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 100px;
+    }
+    .wrapper{
+        max-width: 300px;
+    }
+    .one{
+        top: 155px;
+        left: 175px;
+    }
+    .two{
+        top: 515px;
+        left: 175px;
+    }
+    .three{
+        top: 850px;
+        left: 175px;
+    }
+    .box-title{
+        font-size: 16px;
+    }
+    .gallery-box{
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100%;
+    }
+    .gallery-info-title{
+        font-size: 28px;
+    }
+    .gallery-info{
+        align-items: center;
+    }
+    .gallery-pictures{
+        justify-content: center;
+    }
+    .technology-box-number{
+        font-size: 70px;
+    }
+    .technology-box-img{
+        width: 40px;
+        height: 40px;
+        top: 50px;
+    }
+    .technology{
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+    .footer{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .footer-boxes{
+        flex-wrap: wrap;
+        gap: 15px;
+        margin-bottom: 40px;
+    }
+    .footer-address,.footer-services,.footer-contacts,.footer-contacts{
+        text-align: center;
+    }
+    .footer-title{
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .contacts-social{
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .footer-support{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-support-img{
+        width: 50%;
+    }
+    .footer-text{
+        text-align: center;
+    }
+}
+@media screen and (max-width:568px){
+    .container{
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    video{
+        max-width: 300px;
+    }
+    .video-ico{
+        display: none;
+    }
+    .one,.two,.three{
+        left: 50px;
+    }
+    .one{
+        top: 95px;
+    }
+    .two{
+        top: 410px;
+    }
+    .three{
+        top: 725px;
+    }
+    .technology-boxes{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .technology-box:nth-child(2) .technology-box-img{
+        top: 250px;
+    }
+    .technology-box:nth-child(3) .technology-box-img{
+        top: 630px;
+    }
+    .technology-box:nth-child(4) .technology-box-img{
+        top: 440px;
+    }
+    .gallery-picture{
+        max-width: 300px;
+    }
+    .header-title{
+        font-size: 36px;
+    }
+    .gallery{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .gallery-info-title,.gallery-info-text{
+        text-align: center;
+    }
 }
